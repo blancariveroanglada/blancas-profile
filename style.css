@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Oswald:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #271f22;
+  background-color: #406E8E;
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+  line-height: normal;
+  background-image: url("images/photo_blue.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header {
+  color: #BDD5EA;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 16px;
+  width: 250px;
+  height: 50px;
+  text-align: center;
+}
+
+a {
+  color: #2D2327;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: 'Bebas Neue', cursive;
+}
+
+a:hover {
+  color: #F865B0;
+}
+
+#logo img{
+  width: 400px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+  text-align: center;
+  border: 5px solid #F865B0;
+  font-family: 'Bebas Neue', cursive;
+  margin: centre;
+  height: 580px;
+  width: 800px;
+}
+
+.container h2{
+  margin-top: 350px;
+}
+
+.container-icons{
+  margin: 0px auto;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 91px;
+}
+.container-icons i{
+  color: #F865B0;
+  font-size: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 70px 0px 70px;
+}
+
+ul{
+  padding: 0px;
+}
+
+.footer {
+  color: #120D31;
+  font-family: 'PT Serif', serif;
+  text-align: center;
+  font-size: 15px;
+  padding: 0px 320px;
+}
+
+#explanation-interests{
+  margin-top: 0px;
+  font-size: 30px;
+  font-family: 'Bebas Neue', cursive;
+  color: #BDD5EA;
+}
+
+#explanation-interests img{
+  float: left;
+  width: 23%;
+  padding: 14px;
+}
+
+#explanation-travels{
+  margin-top: 0px;
+  font-size: 30px;
+  font-family: 'Bebas Neue', cursive;
+  color: #BDD5EA;
+  padding-bottom: 10px;
+  margin: 0px;
+  height: 600px;
+}
+
+#explanation-travels img{
+  float: left;
+  width: 23%;
+  padding: 14px;
+  padding-bottom: 0px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
